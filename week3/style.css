@@ -1,0 +1,97 @@
+* {
+    margin: 0; /* 모든 요소의 마진을 0으로 설정 */
+    padding: 0; /* 모든 요소의 패딩을 0으로 설정 */
+    box-sizing: border-box; /* 요소의 너비와 높이를 계산할 때 padding과 border를 포함 */
+}
+
+html, body {
+    height: 100%; /* 전체 높이 설정 */
+    overflow: auto; /* 기본 마진 제거 */
+}
+
+.background {
+    background-image: url('bg4.jpg');
+    background-size: cover; /* 화면을 완전히 덮도록 설정 */
+    background-repeat: no-repeat; /* 이미지 반복 방지 */
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #333; /* 텍스트 색상 */
+    font-family: "Georgia", serif; /* 글꼴 설정 */
+}
+
+/* 제목 스타일 */
+h1 {
+    font-family: 'Alex Brush', cursive;
+    font-size: 48px;
+    font-weight: normal;
+    color: #091235d3;
+    text-align: center;
+    margin: 70px 20px 0;
+    padding: 5px 0;
+}
+
+h2 {
+    font-family: 'Alex Brush', cursive;
+    font-size: 24px;
+    font-weight: normal;
+    color: #434646; /* 어두운 회색 */
+    text-align: center;
+    margin: 5px 0;
+    margin-bottom: 20px;
+}
+
+/* 이미지와 캡션 */
+figure {
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding: 20px 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+    border-radius: 10%; /* 원형 이미지 */
+    border: none;
+    box-shadow: 0 0 10px rgba(145, 140, 140, 0.5);
+    object-fit: cover;
+}
+
+figcaption {
+    font-family: 'Alex Brush', cursive;
+    font-size: 12px;
+    font-weight: normal;
+    color: rgba(72, 71, 71, 0.7); /* 어두운 회색 */
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    text-shadow: 
+        0px 0px 1px rgba(72, 71, 71, 0.7), /* 미세한 검은색 그림자 */
+        0px 0px 1px rgba(72, 71, 71, 0.7);
+}
+
+/* 문단 스타일 */
+p {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #444; /* 회색 텍스트 */
+    line-height: 1.6; /* 줄 간격 조정 */
+    text-align: center;
+}
+
+/* 링크 스타일 */
+a {
+    color: #e54c26d3;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
