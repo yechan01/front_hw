@@ -19,4 +19,4 @@ for (let i = 0; i < elements.length; i++) {
 
 
 ### **netlify에 배포하기**
-[링크](-)
+[링크](https://fanciful-licorice-b291f4.netlify.app/)
